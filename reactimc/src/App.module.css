@@ -20,6 +20,7 @@ body {
 .container .leftSide {
     flex: 1;
     margin-right: 40px;
+    margin-top: 25px;
 }
 
 .container .leftSide h1 {
@@ -72,4 +73,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+.container .rightSide .rightBig {
+    flex: 1;
+    display: flex;
 }
